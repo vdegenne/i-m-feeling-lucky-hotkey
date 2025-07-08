@@ -17,6 +17,6 @@ function openFirstGoogleResult() {
 	)
 	if (firstLink) {
 		// window.open(firstLink.href, "_blank");
-		window.open(firstLink.href)
+		window.location.href = firstLink.href
 	}
 }
