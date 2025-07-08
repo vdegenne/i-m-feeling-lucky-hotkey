@@ -1,18 +1,18 @@
 {
-  "manifest_version": 3,
-  "name": "I am Feeling Lucky Hotkey",
-  "version": "1.0",
-  "description": "Open the first Google search result with Ctrl+Enter",
-  "permissions": [],
-  "content_scripts": [
-    {
-      "matches": ["https://www.google.com/search*"],
-      "js": ["./content.js"],
-      "run_at": "document_idle"
-    }
-  ],
+	"manifest_version": 3,
+	"name": "I am Feeling Lucky Hotkey",
+	"version": "1.4",
+	"description": "Open the first Google search result with Ctrl+Enter",
+	"permissions": [],
+	"content_scripts": [
+		{
+			"matches": ["https://www.google.com/search*"],
+			"js": ["./content.js"],
+			"run_at": "document_idle"
+		}
+	],
 
-  "icons": {
-    "128": "icon128.png"
-  }
+	"icons": {
+		"128": "icon128.png"
+	}
 }
